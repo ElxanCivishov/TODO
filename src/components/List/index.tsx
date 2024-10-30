@@ -31,7 +31,6 @@ const List: FC<TListProps> = memo(({ list }) => {
     <div className="list">
       <div className="list-title">
         <h3>{list.title}</h3>
-
         <Button onClick={handleDelete} variant="danger">
           x
         </Button>
